@@ -1,3 +1,18 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "7549",
+      "firstName": "john",
+      "lastName": "Doe",
+      "phone": "9876543210",
+      "email": "johndow32@yopmail.com"
+    },
+    {
+      "id": "328c",
+      "firstName": "rodger",
+      "lastName": "smith",
+      "phone": "1234567890",
+      "email": "rodgersmith45@yopmail.com"
+    }
+  ]
 }
