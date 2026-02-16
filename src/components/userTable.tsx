@@ -7,7 +7,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { userFormFields } from '../config/userFormConfig';
 import type { user } from '../types/user.type';
-import { Box, Button, IconButton, Skeleton, Tooltip } from '@mui/material';
+import { Box, IconButton, Skeleton, Tooltip } from '@mui/material';
 import InboxOutlinedIcon from "@mui/icons-material/InboxOutlined";
 import ModeEditIcon from '@mui/icons-material/ModeEdit';
 import DeleteIcon from '@mui/icons-material/Delete';

@@ -11,7 +11,7 @@ import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 
 
 const UsersPage = () => {
-  const { users, createUser, updateUser, deleteUser, loading, error } = useUsers();
+  const { users, createUser, updateUser, deleteUser, loading } = useUsers();
   const [open, setOpen] = useState(false);
   const [mode, setMode] = useState<"create" | "edit" | "delete">("create");
   const [selectedUser, setSelectedUser] = useState<user | null>(null);
