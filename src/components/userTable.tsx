@@ -61,16 +61,22 @@ export default function UserTable({ users, onEdit, onDelete, loading }: UserTabl
               </TableRow>
             )) : users.length === 0 ? (
               <TableRow>
-                <TableCell
-                  colSpan={userFormFields.length + 1}
-                  align="center"
-                  sx={{ py: 6 }}
-                >
-                  <InboxOutlinedIcon sx={{ color: "#666" }} />
-                  <Box sx={{ color: "#666" }}>
+                <TableCell colSpan={userFormFields.length + 1}>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      py: 6,
+                      color: "#666",
+                    }}
+                  >
+                    <InboxOutlinedIcon sx={{ fontSize: 40, mb: 1 }} />
                     No users found
                   </Box>
                 </TableCell>
+
               </TableRow>
             )
               : users?.map((row) => (

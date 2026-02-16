@@ -1,11 +1,3 @@
 {
-  "users": [
-    {
-      "firstName": "Test8878",
-      "lastName": "Name878",
-      "phone": "9876543200",
-      "email": "test45@yopmail.cmm",
-      "id": "19d7"
-    }
-  ]
+  "users": []
 }
